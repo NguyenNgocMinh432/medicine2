@@ -6,33 +6,52 @@ export default function crossbar() {
         justifyContent: "flex-end",
     }
     const stylehr = {
-        width: "100px",
+        width: "150px",
         height: "1px",
     }
     const stylehr2 = {
-        width: "1000px",
+        width: "1050px",
         height: "1px",
         color: "black",
     }
     return (
         <>
-            <div>
+            <div
+            >
                 <p style={styleText}>
                     <a href=""
                         style={
                             {
-                                color: "black",
+                                color: "#007bff",
+                                fontSize: "20px",
+                                marginRight: "50px",
+                                marginBottom: "-30px"
                             }
                         }
-                    >Xem Thêm </a>
+                    >Xem Thêm
+                        <i
+                            style={
+                                {
+                                    fontSize: "15px"
+                                }
+                            }
+                            class="fas fa-chevron-right"></i>
+                        <i
+                            style={
+                                {
+                                    fontSize: "15px"
+                                }
+                            }
+                            class="fas fa-chevron-right"></i>
+                    </a>
                 </p>
             </div>
             <div
                 style={
                     {
                         display: "flex",
-                        marginLeft: "130px",
-                        marginRight: "130px",
+                        marginLeft: "50px",
+                        marginRight: "50px",
                     }
                 }
             >
